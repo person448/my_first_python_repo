@@ -1,1 +1,12 @@
-print('hello')
+user_name = input('Hello! what your name?: ')
+print(f'Hello, {user_name}!')
+fav_food = input(f'{user_name}, what is your favorite food?: ')
+print(f'wow, {user_name}! I like {fav_food} too!')
+fav_movie = input(f'{user_name}, what is your favorite movie?: ')
+print(f'I think i have heard of {fav_movie} before, {user_name}!')
+fav_color = input(f'{user_name}, what is your favorite color?:')
+print(f'{fav_color} is a very unique color, {user_name}!')
+fav_animal = input(f'{user_name}, what is your favorite animal?:')
+print(f'{fav_animal} is a really cool animal, {user_name}!')
+print(f'Thank you for sharing your favorites with me, {user_name}! It was nice talking to you!')
+
