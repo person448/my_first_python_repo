@@ -9,4 +9,4 @@ elif mood == 'happy':
 elif mood == 'bored':
     print(f'try learning something new {user} like coding or a new language!')
 else:
-    print('dont understand. try saying you mood in lowercase or put a valid mood from the choices given.')
+    print('dont understand. try saying your mood in lowercase or put a valid mood from the choices given.')

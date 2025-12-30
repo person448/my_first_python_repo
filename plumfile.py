@@ -1,7 +1,4 @@
-number = int(input("Enter a number: "))
-exponent = int(input("Enter an exponent: "))
-
-result = number ** exponent
-
-print(f"{number} raised to the power of {exponent} is {result}")
-
+num = int(input('enter number'))
+square = int(input('enter exponent of your choice'))
+power = num ** square
+print(f'{num} to the power of {square} is = {power} ')

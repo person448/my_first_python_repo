@@ -22,4 +22,3 @@ elif random_exercise == 10:
     print('30 second rest')
 else:
     print('something went wrong. try again.')
-print('hi')
