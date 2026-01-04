@@ -1,7 +1,3 @@
-import random
-num = random.randint(0, 1)
-if num > 0.5:
-  print('heads')
-else:
-  print('tails')
-  import random
+name = input("Enter your name: ")
+name_reverse = name[::-1]
+print(name_reverse + '007')
