@@ -1,3 +1,5 @@
-og_name = input('Hello! what your name?: ')
-reversed_name = og_name[::-1]
-print(f'your new name is {reversed_name}007')
+name = input('Hello! what your name?: ')
+name_list = list(name)
+random.shuffle(name_list)
+shuffled_name = ''.join(name_list)
+print(f'your new name is {shuffled_name}007')
